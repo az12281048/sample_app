@@ -8,6 +8,7 @@ class UsersController < ApplicationController
     flash[:success] = "User destroyed"
     redirect_to users_path
   end
+
   def index
     @users = User.paginate(page: params[:page])
   end
