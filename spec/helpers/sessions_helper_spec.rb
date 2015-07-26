@@ -1,4 +1,4 @@
-require 'spec_helper' #'rails_helpler'
+require 'spec_helper' 
 
 # Specs in this file have access to a helper object that includes
 # the SessionsHelper. For example:
@@ -10,6 +10,3 @@ require 'spec_helper' #'rails_helpler'
 #     end
 #   end
 # end
-RSpec.describe SessionsHelper, type: :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
-end
